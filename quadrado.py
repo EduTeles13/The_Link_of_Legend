@@ -12,11 +12,11 @@ class Player(pygame.sprite.Sprite):
         tecla = pygame.key.get_pressed()
         if tecla[pygame.K_w]:
             self.rect.y -= 5
-        elif tecla[pygame.K_s]:
+        if tecla[pygame.K_s]:
             self.rect.y += 5
-        elif tecla[pygame.K_a]:
+        if tecla[pygame.K_a]:
             self.rect.x -= 5
-        elif tecla[pygame.K_d]:
+        if tecla[pygame.K_d]:
             self.rect.x += 5
             #não passar do limite da tela
         if self.rect.top < 50:
