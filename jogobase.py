@@ -18,6 +18,8 @@ objetos_group = pygame.sprite.Group()
 objetos_group1 = pygame.sprite.Group()
 objetos_group2 = pygame.sprite.Group()
 
+# (primeira modificação teste abaixo - NEWTON)
+# criar objeto do personagem principal e a quantidade aleatória de spawns de rubi entre 5 e 8
 player = Player(object_group)
 spawn = random.randint(5,8)
 spawn1 = random.randint(5,8)
