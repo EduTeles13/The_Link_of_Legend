@@ -26,12 +26,6 @@ class Player(pygame.sprite.Sprite):
         self.sprites_costas.append(pygame.image.load('data/link costa/link-andando-costa2.png'))
         self.sprites_costas.append(pygame.image.load('data/link costa/link-andando-costa3.png'))
         self.sprites_ataque_frente = []
-        self.sprites_ataque_frente.append(pygame.image.load('data/link ataque de frente/link-ataque-de-frente1.png'))
-        self.sprites_ataque_frente.append(pygame.image.load('data/link ataque de frente/link-ataque-de-frente2.png'))
-        self.sprites_ataque_frente.append(pygame.image.load('data/link ataque de frente/link-ataque-de-frente3.png'))
-        self.sprites_ataque_frente.append(pygame.image.load('data/link ataque de frente/link-ataque-de-frente4.png'))
-        self.sprites_ataque_frente.append(pygame.image.load('data/link ataque de frente/link-ataque-de-frente5.png'))
-
 
         self.atual = 0
         self.atual_ataque = 0
@@ -45,15 +39,6 @@ class Player(pygame.sprite.Sprite):
         self.animar = True
     def update(self, *args):
         tecla = pygame.key.get_pressed()
-        if tecla[pygame.K_SPACE]:
-            self.atacar()
-        if self.animar == True:
-            self.atual_ataque = self.atual_ataque + 0.1
-            if self.atual_ataque >= len(self.sprites_ataque_frente):
-                self.atual_ataque = 0
-                self.animar = False
-            self.image = self.sprites_ataque_frente[int(self.atual_ataque)]
-            self.image = pygame.transform.scale(self.image, [70, 85])
         if tecla[pygame.K_w]:
             self.rect.y -= 2
             self.atual = self.atual + 0.1
@@ -110,4 +95,3 @@ class Player(pygame.sprite.Sprite):
             self.rect.left = 0
         if self.rect.right > 1080:
             self.rect.right = 1080
-

@@ -1,5 +1,5 @@
 import pygame
-from quadrado import Player
+from link import Player
 from objetos import Objetos
 import random
 
