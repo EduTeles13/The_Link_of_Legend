@@ -47,9 +47,9 @@ contagem_rubi = 0
 # tela
 fonte = pygame.font.Font(None, 35)
 fim_de_jogo = pygame.font.Font(None, 60)
-texto = fonte.render("esmeralda:"+str(contagem_esmeralda), True, (255, 255, 255), (0, 0, 0))
-texto1 = fonte.render("diamante:"+str(contagem_rubi), True, (255, 255, 255), (0, 0, 0))
-texto2 = fonte.render("rubi:"+str(contagem_cristal), True, (255, 255, 255), (0, 0, 0))
+texto = fonte.render("esmeralda:" + str(contagem_esmeralda), True, (255, 255, 255), (0, 0, 0))
+texto1 = fonte.render("diamante:" + str(contagem_rubi), True, (255, 255, 255), (0, 0, 0))
+texto2 = fonte.render("rubi:" + str(contagem_cristal), True, (255, 255, 255), (0, 0, 0))
 FIMDEJOGO = fim_de_jogo.render("parabéns você garantiu o projeto de P1!!!", True, (255, 255, 255), (0, 0, 0))
 
 gameover = False
