@@ -1,8 +1,6 @@
 import pygame
 from quadrado import Player
 from objetos import Objetos
-from objetos import Objetos1
-from objetos import Objetos2
 import random
 
 #inicializando o pygame e criando a janela
@@ -25,9 +23,13 @@ spawn2 = random.randint(5,8)
 for i in range(spawn):
     novo_objeto = Objetos(object_group, objetos_group)
 for i in range(spawn1):
-    novo_objeto1 = Objetos1(object_group, objetos_group1)
+    novo_objeto1 = Objetos(object_group, objetos_group1)
+    novo_objeto1.image = pygame.image.load('data/crystal green.png')
+    novo_objeto1.image = pygame.transform.scale(novo_objeto1.image, [30, 30])
 for i in range(spawn2):
-    novo_objeto2 = Objetos2(object_group, objetos_group2)
+    novo_objeto2 = Objetos(object_group, objetos_group2)
+    novo_objeto2.image = pygame.image.load('data/crystal red.png')
+    novo_objeto2.image = pygame.transform.scale(novo_objeto2.image, [30, 30])
 
 gameLoop = True
 clock = pygame.time.Clock()
@@ -44,7 +46,7 @@ texto2 = fonte.render("rubi:"+str(contagem_cristal),True,(255, 255, 255), (0, 0,
 FIMDEJOGO = fim_de_jogo.render("parabéns você garantiu o projeto de P1!!!", True, (255, 255, 255), (0, 0, 0))
 
 gameover = False
-
+tecla = pygame.key.get_pressed()
 if __name__ == '__main__':
     while gameLoop:
             object_group.update()
@@ -52,6 +54,8 @@ if __name__ == '__main__':
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     gameLoop = False
+
+
             if not gameover:
                 collisions = pygame.sprite.spritecollide(player, objetos_group, True, pygame.sprite.collide_mask)
                 collisions1 = pygame.sprite.spritecollide(player, objetos_group1, True, pygame.sprite.collide_mask)
@@ -81,4 +85,4 @@ if __name__ == '__main__':
 
                 object_group.update()
                 object_group.draw(display)
-                pygame.display.update()
+                pygame.display.flip()
