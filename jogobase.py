@@ -1,8 +1,6 @@
 import pygame
-from quadrado import Player
+from link import Player
 from objetos import Objetos
-from objetos import Objetos1
-from objetos import Objetos2
 import random
 
 def draw_rect_alpha(surface, color, rect):
@@ -34,9 +32,13 @@ spawn2 = random.randint(5, 8)
 for i in range(spawn):
     novo_objeto = Objetos(object_group, objetos_group)
 for i in range(spawn1):
-    novo_objeto1 = Objetos1(object_group, objetos_group1)
+    novo_objeto1 = Objetos(object_group, objetos_group1)
+    novo_objeto1.image = pygame.image.load('data/crystal green.png')
+    novo_objeto1.image = pygame.transform.scale(novo_objeto1.image, [30, 30])
 for i in range(spawn2):
-    novo_objeto2 = Objetos2(object_group, objetos_group2)
+    novo_objeto2 = Objetos(object_group, objetos_group2)
+    novo_objeto2.image = pygame.image.load('data/crystal red.png')
+    novo_objeto2.image = pygame.transform.scale(novo_objeto2.image, [30, 30])
 
 gameLoop = True
 clock = pygame.time.Clock()

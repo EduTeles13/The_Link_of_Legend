@@ -47,11 +47,11 @@ class Player(pygame.sprite.Sprite):
         # não passar do limite da tela
         if self.rect.top < 50:
             self.rect.top = 50
-        elif self.rect.bottom > 720:
+        if self.rect.bottom > 720:
             self.rect.bottom = 720
-        elif self.rect.left < 0:
+        if self.rect.left < 0:
             self.rect.left = 0
-        elif self.rect.right > 1080:
+        if self.rect.right > 1080:
             self.rect.right = 1080
         # não passar dos obstáculos
 
