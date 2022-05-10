@@ -6,9 +6,9 @@ O grupo desenvolveu um sistema interativo 2D utilizando python e biblioteca Pyga
 #coloquem o nome de vcs aki
 * Matheus Fillipe Silva Malta - mfsm
 * Newton Cardoso da Rocha Neto - ncrn
-*
-*
-*
+* Eduardo Dias de Oliveria Teles - edot
+* Josef Jaeger Brandão - jjb
+* Evandro de Souza Santos Junior - essj2
 *
 
 # Organização do Código
