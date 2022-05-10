@@ -1,5 +1,5 @@
 import pygame
-from pygame.locals import *
+
 
 class Player(pygame.sprite.Sprite):
     def __init__(self, *groups):
@@ -79,7 +79,7 @@ class Player(pygame.sprite.Sprite):
                 self.rect.x += 0
             elif 260 < self.rect.bottom < 530 and self.rect.right == 785:
                 self.rect.x += 0
-            elif 465 < self.rect.bottom < 530 and self.rect.right == 435:
+            elif 470 < self.rect.bottom < 530 and self.rect.right == 435:
                 self.rect.x += 0
             else:
                 self.rect.x += 1
@@ -107,11 +107,11 @@ class Player(pygame.sprite.Sprite):
             self.image = self.sprites_costas[0]
             self.image = pygame.transform.scale(self.image, [70, 80])
 
-            #não passar do limite da tela
+        # não passar do limite da tela
         if self.rect.top < 50:
-            self.rect.top=50
-        if self.rect.bottom>720:
-            self.rect.bottom = 720
+            self.rect.top = 50
+        if self.rect.bottom > 700:
+            self.rect.bottom = 700
         if self.rect.left < 0:
             self.rect.left = 0
         if self.rect.right > 1080:
