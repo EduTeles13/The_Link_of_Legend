@@ -1,4 +1,4 @@
-# The Link of Legend - Projeto de Introdução a Programação
+# The Legend of Link - Projeto de Introdução a Programação
 O grupo desenvolveu um sistema interativo 2D utilizando python e biblioteca Pygame. O jogo "The Link of Legend" tem como objetivo apenas a coleta de pedras preciosas como objetivo, contudo o game ainda será atualizado para receber inimigos magias dentre outros detalhes, porém será apresentado apenas a parte básica que já cumpre os requisitos solicitados do projeto.
 
 
@@ -9,7 +9,7 @@ O grupo desenvolveu um sistema interativo 2D utilizando python e biblioteca Pyga
 * Eduardo Dias de Oliveria Teles - edot
 * Josef Jaeger Brandão - jjb
 * Evandro de Souza Santos Junior - essj2
-*
+* 
 
 # Organização do Código
 O projeto foi organizado seguindo a proposta de Orientação a Objetos ( POO ). A programação orientada a objetos propõe uma representação mais fácil de ser compreendida visualmente e para manutenção no código,
@@ -24,12 +24,12 @@ O projeto foi organizado seguindo a proposta de Orientação a Objetos ( POO ). 
 * Ferramenta utilizada para criar os códigos: Pycharm
 
 # Divisão do Trabalho✅
-*
-*
-*
-*
-*
-*
+* Background e obstáculos: Josef e Newton
+* Player:Eduardo e Evandro
+* Lógica Central: Eduardo e Matheus
+* Áudio: Matheus e Luiz
+* Menu: 
+* Objetos e Coleta: Matheus e Eduardo
 
 
 
