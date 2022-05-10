@@ -51,7 +51,7 @@ tecla = pygame.key.get_pressed()
 if __name__ == '__main__':
     while gameLoop:
             object_group.update()
-            clock.tick(60)
+            clock.tick(120)
             display.blit(bg, (0, 0))
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
