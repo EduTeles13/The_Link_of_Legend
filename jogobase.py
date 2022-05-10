@@ -9,6 +9,7 @@ altura = 720
 largura = 1080
 display = pygame.display.set_mode([largura,altura])
 pygame.display.set_caption('Garantir a Nota')
+bg = pygame.image.load("data/Mapa_1.png")
 
 #objects
 object_group = pygame.sprite.Group()
@@ -51,6 +52,7 @@ if __name__ == '__main__':
     while gameLoop:
             object_group.update()
             clock.tick(60)
+            display.blit(bg, (0, 0))
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     gameLoop = False
@@ -75,8 +77,6 @@ if __name__ == '__main__':
                 if contagem_cristal == spawn and contagem_esmeralda == spawn1 and contagem_rubi == spawn2:
                     gameover = True
 
-
-                display.fill([0,0,0])
                 display.blit(texto, [0, 0])
                 display.blit(texto1, [400, 0])
                 display.blit(texto2, [900, 0])
