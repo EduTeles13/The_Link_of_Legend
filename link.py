@@ -40,20 +40,20 @@ class Player(pygame.sprite.Sprite):
                 self.atual = 0
             self.image = self.sprites_costas[int(self.atual)]
             self.image = pygame.transform.scale(self.image, [70, 85])
-            if self.rect.top == 400 and self.rect.right < 350:
+            if self.rect.top == 380 and self.rect.right < 330:
                 self.rect.y -= 0
-            elif self.rect.top == 280 and 300 < self.rect.right < 845:
+            elif self.rect.top == 260 and 300 < self.rect.right < 845:
                 self.rect.y -= 0
-            elif self.rect.top == 500 and 450 < self.rect.right < 865:
+            elif self.rect.top == 480 and 435 < self.rect.right < 845:
                 self.rect.y -= 0
             else:
                 self.rect.y -= 1
         if tecla[pygame.K_s]:
-            if self.rect.bottom == 375 and self.rect.right < 300:
+            if self.rect.bottom == 355 and self.rect.right < 300:
                 self.rect.y += 0
-            elif self.rect.bottom == 265 and 300 < self.rect.right < 870:
+            elif self.rect.bottom == 245 and 275 < self.rect.right < 845:
                 self.rect.y += 0
-            elif self.rect.bottom == 480 and 450 < self.rect.right < 850:
+            elif self.rect.bottom == 460 and 435 < self.rect.right < 830:
                 self.rect.y += 0
             else:
                 self.rect.y += 1
@@ -63,9 +63,9 @@ class Player(pygame.sprite.Sprite):
             self.image = self.sprites_frente[int(self.atual)]
             self.image = pygame.transform.scale(self.image, [70, 85])
         if tecla[pygame.K_a]:
-            if 270 < self.rect.bottom < 450 and self.rect.left == 285:
+            if 250 < self.rect.bottom < 430 and self.rect.left == 285:
                 self.rect.x -= 0
-            elif 270 < self.rect.bottom < 550 and self.rect.left == 795:
+            elif 250 < self.rect.bottom < 530 and self.rect.left == 795:
                 self.rect.x -= 0
             else:
                 self.rect.x -= 1
@@ -75,11 +75,11 @@ class Player(pygame.sprite.Sprite):
             self.image = self.sprites_lado_esquerdo[int(self.atual)]
             self.image = pygame.transform.scale(self.image, [70, 85])
         if tecla[pygame.K_d]:
-            if 280 < self.rect.bottom < 470 and self.rect.right == 275:
+            if 245 < self.rect.bottom < 430 and self.rect.right == 275:
                 self.rect.x += 0
-            elif 280 < self.rect.bottom < 570 and self.rect.right == 785:
+            elif 260 < self.rect.bottom < 530 and self.rect.right == 785:
                 self.rect.x += 0
-            elif 480 < self.rect.bottom < 560 and self.rect.right == 435:
+            elif 465 < self.rect.bottom < 530 and self.rect.right == 435:
                 self.rect.x += 0
             else:
                 self.rect.x += 1
