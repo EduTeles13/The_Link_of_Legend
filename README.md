@@ -15,8 +15,7 @@ O grupo desenvolveu um sistema interativo 2D utilizando python e biblioteca Pyga
 O projeto foi organizado seguindo a proposta de Orientação a Objetos ( POO ). A programação orientada a objetos propõe uma representação mais fácil de ser compreendida visualmente e para manutenção no código. Foram utilizadas duas classes, uma para o personagem jogável, e outra para os objetos coletados. Dentro no código 'main', chamado de 'jogobase', roda o loop principal do jogo e é onde ocorre todas as interações, como colisão e o relatório de coleta.
 
 # Passos para rodar o jogo
-#aki a gente tem que ver ainda 
-
+É necessário apenas baixar o executável e executá-lo em seu notebook. A movimentação do personagem consiste nas teclas W,A,S,D. Talvez o Windows não execute o arquivo imediatamente pois é de uma fonte desconhecida, porém é só clicar em executar mesmo assim.
 
 # Ferramentas, Frameworks e Bibliotecas utilizadas 💻
 * linguagem utilizada: Python
