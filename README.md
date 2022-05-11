@@ -8,14 +8,14 @@
   
   Para rodar o jogo a partir do código fonte, instale o pycharm e siga esses passos:
   
-  1 - Acesse: https://github.com/EduTeles13/garantir_nota/tree/master
-  2 - Clique no botão verde chamado "Code" e selecione Download ZIP
-  3 - Descompacte os arquivos desse ZIP que você fez download
-  4 - No pycharm selecione "Open" para abrir um projeto
-  5 - Selecione a pasta descompactada do ZIP
-  6 - Vá em Run e selecione "Run 'jogobase.py'"
-  7 - Escolha um Python Interpreter válido para rodar o jogo
-  8 - Divirta-se!
+  * Acesse: https://github.com/EduTeles13/garantir_nota/tree/master
+  * Clique no botão verde chamado "Code" e selecione Download ZIP
+  * Descompacte os arquivos desse ZIP que você fez download
+  * No pycharm selecione "Open" para abrir um projeto
+  * Selecione a pasta descompactada do ZIP
+  * Vá em Run e selecione "Run 'jogobase.py'"
+  * Escolha um Python Interpreter válido para rodar o jogo
+  * Divirta-se!
   
   MANUAL DE INSTRUÇÕES DO JOGO
   
