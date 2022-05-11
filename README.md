@@ -4,6 +4,7 @@
   
   Para jogar, baixe o executável e o execute seu computador pessoal. Caso o anti-vírus acione, dê permissão para executar.
   
+  
   QUALQUER SISTEMA OPERACIONAL
   
   Para rodar o jogo a partir do código fonte, instale o pycharm e siga esses passos:
@@ -16,6 +17,7 @@
   * Vá em Run e selecione "Run 'jogobase.py'"
   * Escolha um Python Interpreter válido para rodar o jogo
   * Divirta-se!
+  
   
   MANUAL DE INSTRUÇÕES DO JOGO
   
