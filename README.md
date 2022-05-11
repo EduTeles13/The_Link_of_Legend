@@ -1,6 +1,24 @@
 # The Legend of Link - (Mais detalhes do Projeto na branch Master)
-  Para jogar, baixe o executável e o execute em seu notebook. Caso o anti-vírus acione, dê permissão para executar.
- 
+
+  * WINDOWS
+  
+  Para jogar, baixe o executável e o execute seu computador pessoal. Caso o anti-vírus acione, dê permissão para executar.
+  
+  * QUALQUER SISTEMA OPERACIONAL
+  
+  Para rodar o jogo a partir do código fonte, instale o pycharm e siga esses passos:
+  
+  1 - Acesse: https://github.com/EduTeles13/garantir_nota/tree/master
+  2 - Clique no botão verde chamado "Code" e selecione Download ZIP
+  3 - Descompacte os arquivos desse ZIP que você fez download
+  4 - No pycharm selecione "Open" para abrir um projeto
+  5 - Selecione a pasta descompactada do ZIP
+  6 - Vá em Run e selecione "Run 'jogobase.py'"
+  7 - Escolha um Python Interpreter válido para rodar o jogo
+  8 - Divirta-se!
+  
+  MANUAL DE INSTRUÇÕES DO JOGO
+  
   * Para movimentar o personagem utilize as telcas W, A, S, D.
   * Colete todas os cristais para ganhar.
 
