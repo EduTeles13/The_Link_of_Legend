@@ -1,5 +1,5 @@
 # The Legend of Link - (Mais detalhes do Projeto na branch Master)
-  Para jogar, baixe o executável e o execute em seu notebook.
+  Para jogar, baixe o executável e o execute em seu notebook. Caso o anti-vírus acione, dê permissão para executar.
  
   * Para movimentar o personagem utilize as telcas W, A, S, D.
   * Colete todas os cristais para ganhar.
