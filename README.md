@@ -1,9 +1,12 @@
-# The Link of Legend - Projeto de Introdução a Programação
+# The Legend of Link - Projeto de Introdução a Programação
 O grupo desenvolveu um sistema interativo 2D utilizando python e biblioteca Pygame. O jogo "The Link of Legend" tem como objetivo apenas a coleta de pedras preciosas como objetivo, contudo o game ainda será atualizado para receber inimigos magias dentre outros detalhes, porém será apresentado apenas a parte básica que já cumpre os requisitos solicitados do projeto.
+#
+# Imagem do game
+![printjogo](https://user-images.githubusercontent.com/104574086/167874981-d42f2104-8ba5-4c7a-878d-0badba17a176.jpg)
 
 
 # Grupo👷
-#coloquem o nome de vcs aki
+
 * Matheus Fillipe Silva Malta - mfsm
 * Newton Cardoso da Rocha Neto - ncrn
 * Eduardo Dias de Oliveria Teles - edot
@@ -15,8 +18,7 @@ O grupo desenvolveu um sistema interativo 2D utilizando python e biblioteca Pyga
 O projeto foi organizado seguindo a proposta de Orientação a Objetos ( POO ). A programação orientada a objetos propõe uma representação mais fácil de ser compreendida visualmente e para manutenção no código. Foram utilizadas duas classes, uma para o personagem jogável, e outra para os objetos coletados. Dentro no código 'main', chamado de 'jogobase', roda o loop principal do jogo e é onde ocorre todas as interações, como colisão e o relatório de coleta.
 
 # Passos para rodar o jogo
-#aki a gente tem que ver ainda 
-
+É necessário apenas baixar o executável na branch 'main' e executá-lo em seu notebook. A movimentação do personagem consiste nas teclas W,A,S,D. Talvez o Windows não execute o arquivo imediatamente pois é de uma fonte desconhecida, porém é só clicar em executar mesmo assim.
 
 # Ferramentas, Frameworks e Bibliotecas utilizadas 💻
 * linguagem utilizada: Python
@@ -40,10 +42,3 @@ O projeto foi organizado seguindo a proposta de Orientação a Objetos ( POO ). 
 - Desafios: A maior dificuldade encontrada pelo grupo foi a utilização do Github. Durante o desenvolvimento do projeto o grupo não utilizou o o diretório para compartilhar as alterações feitas no código, as vezes mandando por Discord ou por outras plataformas. Por causa disso, em alguns momentos houveram problemas pois o código era alterado ao ser enviado por aplicativos de comunicação comuns. Para contornar, o grupo procurou tutoriais de uso do github, e entegrantes da equipe que tinham mais familiriadade com a plataforma, ajudaram os outros.
 Além disso, a equipe teve dificuldades para aprender a utilizar a biblioteca pygame no pouco tempo fornecido, assim, mecânicas que pretendíamos adicionar, como ataque, inimigos que atacariam o personagem e outros níveis não foram adicionadas.
 - Lições: Com o projeto, aprendemos que definir bem as funções de cada integrante aumenta muito a eficiência do grupo. Também, como é importante ter um bom controle dos códigos e as alterações feitas por cada integrante, para não perder tempo tentando entender o que foi alterado no seu próprio código.
-
-
-
-
-
-
-
