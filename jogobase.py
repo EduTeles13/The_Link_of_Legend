@@ -8,9 +8,7 @@ import random
 # ----------------------------------------- #
 
 pygame.init()
-altura = 720
-largura = 1080
-display = pygame.display.set_mode([largura, altura])
+display = pygame.display.set_mode([1080, 720])
 pygame.display.set_caption('The Legend of Link')
 bg = pygame.image.load("data/Mapa_1.png")
 
@@ -59,13 +57,13 @@ def start_menu():
 # ------------------ #
 
 def spawn_objetos():
-    global spawn, spawn1, spawn2, contagem_rubi, contagem_cristal, contagem_esmeralda
+    global spawn, spawn1, spawn2
     spawn = random.randint(5, 8)
     spawn1 = random.randint(5, 8)
     spawn2 = random.randint(5, 8)
 
     for i in range(spawn):
-        novo_objeto = Objetos(object_group, objetos_group)
+        Objetos(object_group, objetos_group)
     for i in range(spawn1):
         novo_objeto1 = Objetos(object_group, objetos_group1)
         novo_objeto1.image = pygame.image.load('data/esmeralda.png')
@@ -169,4 +167,4 @@ if __name__ == '__main__':
         if game_active:
             object_group.update()
             object_group.draw(display)
-        pygame.display.update()
+        pygame.display.flip()
