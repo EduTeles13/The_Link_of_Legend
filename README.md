@@ -1,5 +1,8 @@
 # The Legend of Link - Projeto de Introdução a Programação
 O grupo desenvolveu um sistema interativo 2D utilizando python e biblioteca Pygame. O jogo "The Link of Legend" tem como objetivo apenas a coleta de pedras preciosas como objetivo, contudo o game ainda será atualizado para receber inimigos magias dentre outros detalhes, porém será apresentado apenas a parte básica que já cumpre os requisitos solicitados do projeto.
+#
+# Imagem do game
+![printjogo](https://user-images.githubusercontent.com/104574086/167874981-d42f2104-8ba5-4c7a-878d-0badba17a176.jpg)
 
 
 # Grupo👷
