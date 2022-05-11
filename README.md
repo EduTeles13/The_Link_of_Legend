@@ -1,10 +1,10 @@
 # The Legend of Link - (Mais detalhes do Projeto na branch Master)
 
-  * WINDOWS
+  WINDOWS
   
   Para jogar, baixe o executável e o execute seu computador pessoal. Caso o anti-vírus acione, dê permissão para executar.
   
-  * QUALQUER SISTEMA OPERACIONAL
+  QUALQUER SISTEMA OPERACIONAL
   
   Para rodar o jogo a partir do código fonte, instale o pycharm e siga esses passos:
   
