@@ -14,8 +14,11 @@
   * Descompacte os arquivos desse ZIP que você fez download
   * No pycharm selecione "Open" para abrir um projeto
   * Selecione a pasta descompactada do ZIP
+  * Vá em "File" -> "Settings" -> "Project: garantir_nota-master" -> "Python Interpreter"
+  * Clique no símbolo de +
+  * Escreva pygame na barra de pesquisa
+  * Selecione esse interpretador, Install package e espere terminar de instalar
   * Vá em Run e selecione "Run 'jogobase.py'"
-  * Escolha um Python Interpreter válido para rodar o jogo
   * Divirta-se!
   
   
