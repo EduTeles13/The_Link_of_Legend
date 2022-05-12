@@ -15,6 +15,7 @@
   * No pycharm selecione "Open" para abrir um projeto
   * Selecione a pasta descompactada do ZIP
   * Vá em "File" -> "Settings" -> "Project: garantir_nota-master" -> "Python Interpreter"
+  * Em python interpreter, selecione Python 3.10
   * Clique no símbolo de +
   * Escreva pygame na barra de pesquisa
   * Selecione esse interpretador, Install package e espere terminar de instalar
